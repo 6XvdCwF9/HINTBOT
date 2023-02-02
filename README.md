@@ -1,7 +1,7 @@
 # HINTBOT
 
 This repo provides a reference implementation of **HINTBOT** as described in the paper:
-> HINTBOT: 
+> HintBot: An Intelligent End-to-end Pipeline for Prediction of Large Scale Botnet Infection
 > 
 > Submitted for publication.
 
