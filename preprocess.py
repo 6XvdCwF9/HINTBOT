@@ -1,8 +1,8 @@
 import numpy as np
 import six.moves.cPickle as pickle
 
-DATA_PATH = 'D:/Desktop/任务/崔实验/bianti6/'
-DATA_PATH1='D:/Desktop/任务/崔实验/'
+DATA_PATH = ''
+DATA_PATH1=''
 LABEL_NUM = 0
 
 graphs_train = {}
@@ -182,7 +182,7 @@ pickle.dump((x_data, y_data, sz_data, index.length()), open(DATA_PATH1 + 'datate
 
 
 np.random.seed(13)
-with open('D:/Desktop/任务/崔实验/node_vec_50.txt', 'r') as f:
+with open('node_vec_50.txt', 'r') as f:
     line = f.readline()
     temp = line.strip().split()
     num_nodes = int(temp[0])
