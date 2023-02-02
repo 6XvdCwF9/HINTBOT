@@ -17,15 +17,14 @@ pip install -r requirements.txt
 
 ### How to run the code
 ```shell
-> 
-> 
-> 
-> 
+>  python gen_walks.py
+>  python preprocess.py
+>  python preprocess.py
+>  python run.py
 ```
 
 #### Options
 You may change the model settings manually in `model.py` or directly into the codes. 
 
 #### Datasets
-
-
+See some data in ./datasets/README.md
