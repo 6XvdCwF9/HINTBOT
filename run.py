@@ -5,7 +5,7 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 import tensorflow as tf
-from b6model import HINTBOT
+from model import HINTBOT
 # import model
 import six.moves.cPickle as pickle
 import gzip
