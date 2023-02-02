@@ -17,7 +17,7 @@ import math
 gpu_options=tf.GPUOptions(per_process_gpu_memory_fraction=0.5)
 sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
 
-DATA_PATH = 'D:/Desktop/任务/崔实验/'
+DATA_PATH = ''
 tf.flags.DEFINE_float("learning_rate", 0.01, "learning_rate.")
 tf.flags.DEFINE_integer("sequence_batch_size", 40, "sequence batch size.")
 tf.flags.DEFINE_integer("batch_size",7, "batch size.")
