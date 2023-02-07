@@ -169,7 +169,7 @@ if __name__ == "__main__":
     print("train is ready")
     print('--------------------')
 
-    for i1 in range(2,9):
+    for i1 in range(6,13):
         g = Graph('1-'+str(i1)+'.txt')
         g = calculate_SIF(g)
         string=parse_graph(g)
