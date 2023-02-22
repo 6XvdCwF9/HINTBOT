@@ -19,7 +19,6 @@ pip install -r requirements.txt
 ```shell
 >  python gen_walks.py
 >  python preprocess.py
->  python preprocess.py
 >  python run.py
 ```
 
