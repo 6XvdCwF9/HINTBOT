@@ -15,6 +15,7 @@ window_vector_size=10
 iter=5
 worker=8
 pseudo_count=0.01
+
 def Graph(edge_path):
     edges = []
     with open(edge_path, 'r', encoding='utf-8') as f:
