@@ -1,6 +1,6 @@
 # Input
 
-A txt file, each line indicates a P2P botnet infection interaction, following is a example:
+A txt file, each line indicates a P2P botnet infection interaction, following is an example:
 
  ![img.png](img.png)
     
