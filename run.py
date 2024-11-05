@@ -13,7 +13,7 @@ import math
 gpu_options=tf.GPUOptions(per_process_gpu_memory_fraction=0.5)
 sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options))
 DATA_PATH = ''
-tf.flags.DEFINE_float("learning_rate", 0.01, "learning_rate.")
+tf.flags.DEFINE_float("learning_rate", 0.1, "learning_rate.")
 tf.flags.DEFINE_integer("sequence_batch_size", 40, "sequence batch size.")
 tf.flags.DEFINE_integer("batch_size",7, "batch size.")
 tf.flags.DEFINE_integer("n_hidden_gru", 32, "hidden gru size.")
@@ -25,7 +25,7 @@ tf.flags.DEFINE_string("activation", "relu", "activation function.")
 tf.flags.DEFINE_integer("n_sequences", 7, "num of sequences.")
 tf.flags.DEFINE_integer("training_iters", 200000, "max training iters.")
 tf.flags.DEFINE_integer("display_step", 100, "display step.")
-tf.flags.DEFINE_integer("embedding_size", 64, "embedding size.")
+tf.flags.DEFINE_integer("embedding_size", 128, "embedding size.")
 tf.flags.DEFINE_integer("n_input", 50, "input size.")
 tf.flags.DEFINE_integer("n_steps", 5, "num of step.")
 tf.flags.DEFINE_integer("n_hidden_dense1", 32, "dense1 size.")
@@ -34,7 +34,7 @@ tf.flags.DEFINE_string("version", "v4", "data version.")
 tf.flags.DEFINE_integer("max_grad_norm", 100, "gradient clip.")
 tf.flags.DEFINE_float("stddev", 0.01, "initialization stddev.")
 tf.flags.DEFINE_float("emb_learning_rate", 5e-05, "embedding learning_rate.")
-tf.flags.DEFINE_float("dropout_prob", 0.4, "dropout probability.")
+tf.flags.DEFINE_float("dropout_prob", 0.2, "dropout probability.")
 
 config = tf.flags.FLAGS
 
