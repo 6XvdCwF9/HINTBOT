@@ -15,6 +15,7 @@ with open(DATA_PATH + 'random_walks_train.txt', 'r') as f:
             graphs_train[walks[0]].append([x for x in walks[i].split()])
 
 graphs_val = {}
+
 with open(DATA_PATH + 'random_walks_val.txt', 'r') as f:
     for line in f:
         walks = line.strip().split('\t')
