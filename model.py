@@ -1,7 +1,7 @@
 import tensorflow as tf
 from keras.layers import *
 from tensorflow.contrib import rnn
-from lstm_layers import GRULearnerLayer
+from GRU_layers import GRULearnerLayer
 def Position_Embedding(inputs, position_size):
     batch_size,seq_len = inputs[0],inputs[1]
     position_j = 1. / tf.pow(10000.,
